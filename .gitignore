@@ -1,0 +1,62 @@
+# Node Modules
+node_modules/
+
+# Build Outputs
+dist/
+build/
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Angular Specific
+.angular/
+*.log
+*.gz
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-Specific Files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+*.swp           # Vim swap files
+*.swo           # Vim swap files
+
+# Dependency Lock Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Tailwind Config Cache
+tailwind.config.js.lintcache
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage (e.g., from tests)
+coverage/
+
+# Generated Files
+*.min.js
+*.min.css
+
+# PrimeNG Build Cache
+*.cache
+
+# IntelliJ Specific
+.idea/
+*.iml
+out/
+
